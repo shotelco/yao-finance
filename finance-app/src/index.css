@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.material-symbols-outlined {
+    @apply select-none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.better-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.bank-card {
+    @apply w-[350px]  h-[200px] bg-white rounded shadow hover:shadow-md;
+}
+
+.not-blank {
+    @apply p-[30px] space-y-[30px] border border-purple-600;
+}
